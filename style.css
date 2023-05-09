@@ -1,0 +1,70 @@
+*{
+    max-width: 1200 px;
+    margin: 0 auto;
+ } 
+
+.nav-sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+.nav-box{
+    height: 70px;
+    width: 100%;
+}
+ .nav-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-about{
+    color: #00B39B;
+    cursor: pointer;
+}
+.nav-color:hover{
+    color: #00B39B;
+    cursor: pointer;
+}
+ .logo{
+     height: 33px ;
+     width: 268px ;
+    max-width: 100%;
+ }
+ .menu-info{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+
+ }
+ .drop-down-1{
+    list-style: none;
+    position: absolute;
+    left: -40px;
+    margin-top: 10px;
+    box-shadow: -4px -4px 8px -1px rgba(0,0,0,0.71);
+-webkit-box-shadow: -4px -4px 8px -1px rgba(0,0,0,0.71);
+-moz-box-shadow: -4px -4px 8px -1px rgba(0,0,0,0.71);
+display: none;
+width: 200px;
+}
+.posi{
+    position: relative;
+}
+.posi:hover .drop-down-1{
+    display: flex;
+    flex-direction: column;
+    color: #ABABAB;
+}
+.drop-menu:hover{
+    background-color: #ABABAB;
+    cursor: pointer;
+    color: #00B39B;
+}
+.logo-body{
+    height: 39px;
+    width: 40px;
+    margin: 0 468px 0 468px;
+    max-width: 100%;
+}
