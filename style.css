@@ -36,13 +36,15 @@
     list-style: none;
     display: flex;
     gap: 10px;
+    
 
  }
  .drop-down-1{
     list-style: none;
     position: absolute;
     left: -40px;
-    margin-top: 10px;
+    padding-top: 10px;
+    background-color: white;
     box-shadow: -4px -4px 8px -1px rgba(0,0,0,0.71);
 -webkit-box-shadow: -4px -4px 8px -1px rgba(0,0,0,0.71);
 -moz-box-shadow: -4px -4px 8px -1px rgba(0,0,0,0.71);
@@ -56,6 +58,19 @@ width: 200px;
     display: flex;
     flex-direction: column;
     color: #ABABAB;
+}
+.drop-menu{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none ;
+    text-align: left;
+    height: 42px;
+    width: 220px;
+    transform: translate(-25px);
+    
+
+
 }
 .drop-menu:hover{
     background-color: #ABABAB;
@@ -99,9 +114,10 @@ width: 200px;
 .container2{
     display: flex;
     justify-content: center;
-    height: 365px;
-    width: 1015px;
+    max-width:1050px;
+    margin: 0 auto;
     color: white;
+    
 
 }
 .img-con-size{
@@ -109,9 +125,10 @@ width: 200px;
     width: 24px;
 }
 .contai-size{
-    height: 345px;
-    width: 250px;
-    
+    height: 320px;
+    width: 270px;
+    padding: 20px;
+    border-radius: 10px;
        
 }
 #container1-color{
@@ -143,55 +160,48 @@ width: 200px;
     height: 86.4px;
     width: 247.625px;
 }
-.country-sytle1{
-    
+.country-style{
     text-decoration: underline;
     font-size: 19.2px;
     line-height: 24.96px;
     height: 40px;
     width: 172.8px;
     cursor: pointer;
-    background-color: #00B39B;
+    color: white;
+}
+.country-sytle1{
+    background-color: transparent;
     border: #00B39B;
-
+    height: 40px;
+    width: 172.8px;
 }
 .country-sytle2{
-    
-    text-decoration: underline;
-    font-size: 19.2px;
-    line-height: 24.96px;
+    background-color:transparent;
+    border:#3D83DF;
     height: 40px;
     width: 172.8px;
-    cursor: pointer;
-    background-color:#3D83DF;
-    border:#3D83DF;
 
 }
 .country-sytle3{
-    text-decoration: underline;
-    font-size: 19.2px;
-    line-height: 24.96px;
-    height: 40px;
-    width: 180px;
-    cursor: pointer;
-    background-color:#1B2734;
+    background-color:transparent;
     border:#1B2734;
-    color: white;
+    height: 40px;
+    width: 193.8px;
 }
 .country-sytle4{
-    text-decoration: underline;
-    font-size: 19.2px;
-    line-height: 24.96px;
-    height: 40px;
-    width: 230px;
-    cursor: pointer;
-    background-color:#1B2734;
+    
+    background-color:transparent;
     border:#1B2734;
-    color: white;
+    height: 40px;
+    width: 247.625px;
+}
+option{
+    color: black;
 }
 .container3{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 .paragra2{
     height: 101.4px;
@@ -209,4 +219,9 @@ width: 200px;
     display: grid;
     grid-template-columns: 163.312px 163.312px 163.312px 163.312px ;
     grid-template-rows: 44.8px 44.8px 52.8px
+}
+.green-theme{
+    width: 100%;
+    height: 600px;
+    background-color: #E5FAF8;
 }
